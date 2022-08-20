@@ -13,7 +13,7 @@ const perPage = 40
 formEl.addEventListener('submit', itemsGallery)
 btnLoadmore.addEventListener('click', itemsGallery)
 
-async function itemsGallery(e){
+function itemsGallery(e){
 e.preventDefault();
 const inputValue = inputEl.value;
 if(inputValue === ''){
