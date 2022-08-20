@@ -26,7 +26,6 @@ if(e.type === 'click'){
 if(e.type === 'submit'){
   updateGallery();
   page = 1}
-
 dataLibrary(inputValue)
 }
 const dataLibrary = async (inputValue) => {
